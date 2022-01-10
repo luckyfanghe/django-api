@@ -1,0 +1,24 @@
+{% extends 'base.html' %}
+{% block body %}
+<div class="container">
+    <div class="row mb-2" style="background-color: rgb(238, 238, 238);">
+        <div class="col-sm-1">Username</div>
+        <div class="col-sm-1">Latitude</div>
+        <div class="col-sm-1">Longitude</div>
+        <div class="col-sm-8">Address</div>
+        <div class="col-sm-1"></div>
+    </div>
+{% for item in locations %}
+    <div class="row mb-2" id="{{ item.id }}">
+        <div class="col-sm-1">{{item.username}}</div>
+        <div class="col-sm-1">{{item.latitude}}</div>
+        <div class="col-sm-1">{{item.longitude}}</div>
+        <div class="col-sm-8">{{item.address}}</div>
+        <div class="col-sm-1">
+            <button class="btn-approval"><i class="fas fa-check"></i></button>
+            <button class="btn-denial"><i class="fas fa-times"></i></button>
+        </div>
+    </div>
+{% endfor %}
+</div>
+{% endblock %}

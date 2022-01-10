@@ -1,0 +1,25 @@
+.btn-approval {
+  background-color: rgb(30, 144, 255);
+  border: none;
+  color: white;
+  padding: 3px 8px;
+  font-size: 20px;
+  cursor: pointer;
+}
+
+.btn-approval:hover {
+  background-color: rgb(32, 113, 194);
+}
+
+.btn-denial {
+  background-color: rgb(255, 32, 32);
+  border: none;
+  color: white;
+  padding: 3px 11px;
+  font-size: 20px;
+  cursor: pointer;
+}
+
+.btn-denial:hover {
+  background-color: rgb(196, 26, 26);
+}

@@ -1,0 +1,14 @@
+{% extends 'base.html' %}
+{% block body %}
+<div style="min-width: 320px; max-width: 640px;">
+    <div class="row mb-2">
+        <div class="col-sm-2 pt-1">User Name:</div>
+        <div class="col-sm-10">
+            <input type="text" class="form-control form-control-sm" id="uname" placeholder="Enter username" name="uname" required>
+        </div>
+    </div>
+    <div id="details" style="margin: 12px 0;"></div>
+    <button class="btn btn-primary" onclick="getLocation()">Get Location</button>
+    <button type="button" id="btn_submit" class="btn btn-primary" style="width: 120px;" disabled>Submit</button>
+</div>
+{% endblock %}
