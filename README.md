@@ -4,11 +4,11 @@
 git clone https://github.com/luckyfanghe/django-api.git
 
 ### install virtual environment
-python3 -m venv env
+python3 -m venv env <br/>
 source env/bin/activate  # On Windows use `env\Scripts\activate`
 
 ### install packages
-pip install --upgrade pip
+pip install --upgrade pip <br/>
 pip install -r requirements.txt
 
 ### setup database
