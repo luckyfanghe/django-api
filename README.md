@@ -3,7 +3,7 @@
 ### donwload source code
 git clone https://github.com/luckyfanghe/django-api.git
 
-### install virtula environment
+### install virtual environment
 python3 -m venv env
 source env/bin/activate  # On Windows use `env\Scripts\activate`
 
